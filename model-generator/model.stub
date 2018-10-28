@@ -1,0 +1,21 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * Class DummyClass
+ * @package DummyNamespace
+DummyProperty
+ */
+
+class DummyClass extends Model
+{
+    DummyConnection
+
+    public static function tableName()
+    {
+         return 'TableName';
+    }
+}
